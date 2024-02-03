@@ -13,9 +13,9 @@
 header a{
   font-family:'Great Vibes', cursive; ;
 }
-#anoop{
+.anoop{
   font-family: 'Dancing Script', cursive;
-font-weight: 15;
+
 
 }
 .me{
@@ -29,8 +29,9 @@ font-weight: 15;
 margin-bottom: 1rem;
 border-radius: 0.75rem;
 }
-
-
+#contactme{
+  font-family: 'Dancing Script', cursive;
+}
 
 .responsive {
   width: 100%;
@@ -38,4 +39,10 @@ border-radius: 0.75rem;
   height: auto;
 }
 
-
+footer img{
+  height: 35px;
+}
+.projects{
+  max: width 500px;;
+  max: height 500px; ;
+}
