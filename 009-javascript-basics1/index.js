@@ -45,10 +45,7 @@ function myGrade(grade){
 
 
 
-myGrade(55)
-myGrade(5)
-myGrade(0)
-myGrade(.22)
+
 myGrade(200)
 myGrade(90)
 myGrade(.1)
