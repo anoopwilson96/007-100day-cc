@@ -29,15 +29,22 @@ function myGrade(grade){
   else if (grade >= 60){
     console.log('Your grade is B')
   }
-  else if(grade >= 50){
+  else if(grade >= 50 ){
     console.log('Your grade is C+')
   }
-  else if(grade < 50){
+  else (grade < 50 || grade < 0);{
     console.log('Sorry, you are failed')
   }
-  else(grade <0){
-    console.log('Grade error')
+
+  else ; {
+    console.log('Invalid input')
   }
 }
 
+
+myGrade(85)
 myGrade(55)
+myGrade(5)
+myGrade(0)
+myGrade()
+myGrade()
