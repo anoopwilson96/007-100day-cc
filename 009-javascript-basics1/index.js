@@ -32,7 +32,7 @@ function myGrade(grade){
   else if(grade >= 50 ){
     console.log('Your grade is C+')
   }
-  else if(grade < 50 || grade >= 0){
+  else if(grade < 50){
     console.log('Sorry, you are failed')
   }
   else if(grade < 0){
@@ -50,3 +50,6 @@ myGrade(5)
 myGrade(0)
 myGrade(.22)
 myGrade(200)
+myGrade(90)
+myGrade(.1)
+myGrade(20001)
