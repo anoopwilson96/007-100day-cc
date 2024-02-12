@@ -8,7 +8,36 @@
   font-family: myFont;
   src: url(myFont.ttf);
 }
+ header{
+  background-color: rgba(84, 152, 16, 0.464);
+ }
 
 header h2{
   font-family: myFont;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.section1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  padding: 15px 0 10px 10px;
+}
+.borderSection1{
+  border: solid 2.5px rgba(255, 0, 0, 0.411);
+}
+
+.section1 div{
+  padding: 25px;
+}
+.icon{
+  height: 25px;
 }
