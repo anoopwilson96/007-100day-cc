@@ -31,20 +31,23 @@ header h2{
   max-width: 800px;
   grid-gap: 10px;
   padding: 15px 10px 10px 10px;
+  
 }
-/* .section2{
+.section1 div{
+  background-color: aqua;
+}
+.section2{
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 800px;
   grid-gap: 10px;
   padding: 15px 10px 10px 10px;
-} */
-
-.section2{
-  
-  
-
+} 
+.section2 div{
+  padding: 10px;
+  background-color: aquamarine;
 }
+
 
 .borderSection1{
   border: solid 2.5px rgba(255, 0, 0, 0.411);
