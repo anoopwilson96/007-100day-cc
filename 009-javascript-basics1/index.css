@@ -55,8 +55,15 @@ header h2{
 
 .section1 div{
   padding: 25px ;
- 
 }
+
+.section3 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .icon{
   height: 55px;
 }
