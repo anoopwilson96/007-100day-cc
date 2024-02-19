@@ -10,3 +10,7 @@ let a = function showMessage(){
 let showNewMessage = () => {
   console.log('Welcome again and agin')
 }
+
+showMessage()
+a()
+showNewMessage()
