@@ -1,3 +1,16 @@
+//in-line comments
+/* multi-line comments*/
+
+let myName = "Anoop"
+console.log('myName');
+
+/
+
+
+
+
+
+
 /* Main types of functions */
 function showMessage() {
   console.log('Welcome to basics of JS')
@@ -14,3 +27,4 @@ let showNewMessage = () => {
 showMessage()
 a()
 showNewMessage()
+a()
