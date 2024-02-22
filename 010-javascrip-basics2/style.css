@@ -12,15 +12,18 @@ h2{
   margin-bottom: 20px;
 }
 #increment-btn{
+   background-color: darkgreen;
+}
+#reset-btn{
   background-color: darkred;
 }
 
 button{
-     border: 0;
-
- border-radius: .25rem;
- color: white;
- font-weight: 200px;
- padding: .5rem;
- width: 10rem;
+  border: 0;
+  border-radius: .25rem;
+  color: white;
+  font-weight: 200px;
+  padding: .5rem;
+  width: 10rem;
+  margin-top: 20px;
 }

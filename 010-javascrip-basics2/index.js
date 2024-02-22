@@ -1,12 +1,12 @@
 //in-line comments
 /* multi-line comments*/
 
-let myName = "Anoop"
+/* let myName = "Anoop"
 console.log('myName');
 
 
 
-/* Main types of functions */
+Main types of functions 
 function showMessage() {
   console.log('Welcome to basics of JS')
 }
@@ -22,4 +22,21 @@ let showNewMessage = () => {
 showMessage()
 a()
 showNewMessage()
-a()
+a() */
+
+// Increment section
+let count = 0
+let countEl = document.getElementById("count-el")
+
+function increment() {
+    count = count+1 
+    countEl.innerText=count
+ 
+}
+// reset section
+
+let countRe = document.getElementById("count-el")
+function reset() {
+    count = 0
+    countRe.innerText = count
+}
