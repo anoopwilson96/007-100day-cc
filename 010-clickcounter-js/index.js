@@ -38,5 +38,4 @@ function increment() {
 let countRe = document.getElementById("count-el")
 function reset() {
     count = 0
-    countRe.innerText = count
-}
+    countRe.innerText = count}
