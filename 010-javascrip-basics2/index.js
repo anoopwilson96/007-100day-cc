@@ -4,11 +4,6 @@
 let myName = "Anoop"
 console.log('myName');
 
-/
-
-
-
-
 
 
 /* Main types of functions */
