@@ -30,7 +30,7 @@ let countEl = document.getElementById("count-el")
 
 function increment() {
     count = count+1 
-    countEl.innerText=count
+    countEl.innerHTML=count
  
 }
 // reset section
@@ -38,4 +38,5 @@ function increment() {
 let countRe = document.getElementById("count-el")
 function reset() {
     count = 0
-    countRe.innerText = count}
+    countRe.innerHTML = count
+  }
