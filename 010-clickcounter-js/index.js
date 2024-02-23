@@ -24,15 +24,32 @@ a()
 showNewMessage()
 a() */
 
-// Increment section
+
 let count = 0
 let countEl = document.getElementById("count-el")
+let addEl = document.getElementById("add-btn")
+let minusEl = document.getElementById('minus-btn')
 
-function increment() {
+
+// add section
+
+addEl.addEventListener('click',add)
+
+function add() {
     count = count+1 
-    countEl.innerHTML=count
- 
+    countEl.innerHTML=count 
 }
+
+//decrement section
+
+minusEl.addEventListener('click',minus)
+
+function minus(){
+  count=count-1
+  countEl.innerHTML=count
+}
+
+
 // reset section
 
 let countRe = document.getElementById("count-el")
