@@ -77,16 +77,23 @@ showNewMessage()
 
 // form validation using JavaScript
 
-const age= document.getElementById('ageInput')
-const submit= document.getElementById('submitButton')
-const error=document.getElementById('submitText')
-
-console.log(error)
+const age= document.getElementById('age')
+const submit= document.getElementById('submit-btn')
+const error=document.getElementById('hide')
 
 submit.addEventListener('click',checkAge)
 
 function checkAge(){
-  console.log("runs")
+  let ageInput= age.value
+  if (ageInput<= 0 || ageInput>110) {
+    event.preventDefault();
+    console.log("Button is clicked")
+    error.innerHTML = 'Error: Enter age between 0 and 110'
 
-
+    
+  }
+  else{
+    event.preventDefault();
+   
+  }
 }
