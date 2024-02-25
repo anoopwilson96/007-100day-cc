@@ -73,3 +73,8 @@ let showNewMessage = () => {
 showMessage()
 a()
 showNewMessage()
+
+
+// form validation using JavaScript
+
+const 
