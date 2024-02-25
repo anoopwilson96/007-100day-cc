@@ -77,4 +77,16 @@ showNewMessage()
 
 // form validation using JavaScript
 
-const 
+const age= document.getElementById('ageInput')
+const submit= document.getElementById('submitButton')
+const error=document.getElementById('submitText')
+
+console.log(error)
+
+submit.addEventListener('click',checkAge)
+
+function checkAge(){
+  console.log("runs")
+
+
+}
