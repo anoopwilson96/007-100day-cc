@@ -79,7 +79,7 @@ showNewMessage()
 
 const age= document.getElementById('age')
 const submit= document.getElementById('submit-btn')
-const error=document.getElementById('hide')
+const error=document.getElementById('errorText')
 
 submit.addEventListener('click',checkAge)
 
@@ -88,12 +88,14 @@ function checkAge(){
   if (ageInput<= 0 || ageInput>110) {
     event.preventDefault();
     console.log("Button is clicked")
+    error.classList.remove('hide')
     error.innerHTML = 'Error: Enter age between 0 and 110'
 
     
   }
   else{
     event.preventDefault();
+    error.classList.add('hide')
    
   }
 }

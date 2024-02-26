@@ -65,8 +65,10 @@ justify-content: center;
 height: 50vh;
 }
 
-#hide{
-  
+.hide{
+  display: none;
+}
+.section3 span{
   color: red;
 }
 
